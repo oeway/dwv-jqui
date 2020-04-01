@@ -70,6 +70,7 @@ function startApp() {
 
     // main application
     var myapp = new dwv.App();
+    window.app = myapp;
     myapp.init(options);
 
     // show help

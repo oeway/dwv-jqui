@@ -9,6 +9,7 @@ function startApp() {
 
     // main application
     var myapp = new dwv.App();
+    window.app = myapp;
     // initialise the application
     var options = {
         "containerDivId": "dwv",
